@@ -47,7 +47,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
-        const markdown = `
+        const markdown = String.raw`
 # Esercizi sui Limiti
 
 Risolvi i seguenti limiti. Le formule sono scritte in LaTeX all'interno di Markdown usando $$...$$ per il display math e $...$ per l'inline.
@@ -86,10 +86,6 @@ Buon lavoro!
             MathJax.typesetPromise();
         }
     </script>
-
-    <footer style="margin-top: 50px; text-align: center; font-size: 0.9em; color: #7f8c8d;">
-        Generato per scopi didattici. Buon lavoro!
-    </footer>
 
     <footer style="margin-top: 50px; text-align: center; font-size: 0.9em; color: #7f8c8d;">
         Generato per scopi didattici. Buon lavoro!
